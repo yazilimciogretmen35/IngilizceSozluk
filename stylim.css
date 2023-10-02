@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+
+
+}
+
+.container{
+    background-color: coral;
+    border-radius: 20px;
+    
+}
+
+
+.baslik{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    display: flex;
+    margin-bottom: 11px;
+    border: none;
+    border-radius: 8px;
+    inline-size: 80%;
+    height: 29px;
+    padding: 20px 30px;
+    
+}
+
+.inputum{
+    display: flex;
+    justify-content: center;
+}
+
+.butonum{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    border-radius: 5px;
+    background-color:green ;
+    color: white;
+    height: 32px;
+
+}
+
+p{
+    text-align: center;
+}
+
+.translatedDiv{
+    display: none;
+    text-align: center;
+}
